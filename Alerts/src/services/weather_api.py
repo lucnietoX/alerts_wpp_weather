@@ -28,6 +28,3 @@ def get_weather_forecast():
     except Exception as e:
         logging.error(f"Error: {e}")
         return None
-    
-
-print(get_weather_forecast())
